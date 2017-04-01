@@ -7,7 +7,8 @@ import { OFFERS_GET, OFFERS_RESET, OFFER_LIKE, OFFERS_FILTER } from '../constant
 export function getOffers() {
   return {
     apiMethod: 'GET',
-    url: '../../offers.json',
+    //url: '../../offers.json',
+    url: 'https://dennila2.github.io/angular-test-work-2/js/offers.json',
     type: OFFERS_GET
   }
 }
